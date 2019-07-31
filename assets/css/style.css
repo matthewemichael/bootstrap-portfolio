@@ -34,6 +34,17 @@ p.aboutMe {
     text-align: center;
 }
 
+.btn-default {
+    width: 100px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-bottom: 3%;
+}
+
+::placeholder {
+    font-weight: lighter;
+}
+
 @media screen and (max-width: 767.8px) {
     #mainContainer {
         text-align: justify;
