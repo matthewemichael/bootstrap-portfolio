@@ -4,12 +4,12 @@ body {
 }
 
 .navbar {
-    border-bottom: 3px solid #4aaaa5;
+    border-bottom: 3px solid #118888;
 }
 
 #mainContainer {
-    border: 1px solid #cccccc;
-    background: rgb(243, 243, 243);
+    border: 1px solid #d7dadd;
+    background: #f2f2f2;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h3 {
     font-size: 24px;
     line-height: 40px;
     letter-spacing: 0.2px;
-    border-bottom: 2px solid #cccccc;
+    border-bottom: 2px solid #d7dadd;
     margin-top: 2%;
     margin-bottom: 3%;
 }
@@ -48,13 +48,13 @@ p.aboutMe {
     bottom: 0;
     width: 100%;
     text-align: center;
-    border-top: 3px solid #4aaaa5;
+    border-top: 3px solid #118888;
 }
 
 .btn-default {
     width: 100px;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #118888;
     margin-bottom: 3%;
 }
 
@@ -76,6 +76,7 @@ p.aboutMe {
     height: 35px;
     padding-top: 5px;
     background-color: #343a40;
+    border: 1px solid #8899aa;
     color: #ffffff;
     text-align: center;
     letter-spacing: 0.6px;
