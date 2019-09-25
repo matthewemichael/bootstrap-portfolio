@@ -11,6 +11,7 @@ body {
 #mainContainer {
     border: 1px solid #d7dadd;
     background: #f2f2f2;
+    border-radius: 5px;
 }
 
 h2 {
@@ -30,7 +31,13 @@ h3 {
 }
 
 .card-header {
-    padding-top: 0;
+    padding-top: 1vh;
+    background: #f2f2f2;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #profilePic {
@@ -87,10 +94,19 @@ p.aboutMe {
     letter-spacing: 0.6px;
 }
 
-@media screen and (max-width: 767.8px) {
+#linkedIn,
+#resume
+{
+    height: 64px;
+    
+
+}
+
+@media screen and (max-width: 767.98px) {
     #mainContainer {
         text-align: justify;
         text-justify: auto;
+        margin-bottom: 2vh;
     }
     
     #profilePic {
@@ -98,5 +114,19 @@ p.aboutMe {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5%;
+    }
+
+    .card-header {
+        display: none;
+    }
+    .card {
+        background: none !important;
+        border: none !important;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .card-header {
+        padding-top: .8vh;
     }
 }
